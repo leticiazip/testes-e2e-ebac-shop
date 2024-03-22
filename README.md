@@ -49,6 +49,8 @@ Após abrir o dasboard, clique na opção "Running integration tests" para rodar
 Fábio & José Ernesto
 Qualidade de software
 
+## Alterando arquivo README
+
 
 
 
