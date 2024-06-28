@@ -59,9 +59,9 @@ context('Exercicio - Testes End-to-end - Fluxo de pedido', () => {
         produtosPage.selecionarTipoPagamento('Cheque')
         produtosPage.aceitarTermos()
         produtosPage.finalizarCompra()
-        
+
         //Validação para verificar se a compra foi finalizada com sucesso
-        cy.get('[class="woocommerce-notice woocommerce-notice--success woocommerce-thankyou-order-received"]').wait(5000).should('have.text', 'Obrigado. Seu pedido foi recebido.')
+        cy.get('[class="woocommerce-notice woocommerce-notice--success woocommerce-thankyou-order-received"]').wait(10000).should('have.text', 'Obrigado. Seu pedido foi recebido.')
     });
 
 
