@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clonar repositório') {
             steps {
-                git branch: 'main', url: 'https://github.com/leticiazip/testes-e2e-ebac-shop.git'
+                git branch: 'pipeline', url: 'https://github.com/leticiazip/testes-e2e-ebac-shop.git'
             }
         }
         stage('Instalar dependencia') {
